@@ -37,7 +37,7 @@ i=1;
 
 while True:
     print(i)
-    if i ==10:
-        break
+    if i ==3:
+       continue
     i+=1
    
