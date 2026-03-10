@@ -85,10 +85,19 @@ fruits =["Apple", "Banana", "Orange", "Mango"];
 
 # Task -17
 marks =[70,80,90,60];
-total=0;
+# total=0;
 
-for m in marks :
-    total +=m;
-print(total)
-print(f"{len(marks)}, {total/len(marks)}")
+# for m in marks :
+#     total +=m;
+# print(total)
+# print(f"{len(marks)}, {total/len(marks)}")
+    
+# Task -18
+# marks = int (input("Enter Mark: "));
+
+for m in marks:
+    if m >=40:
+        print(f"This {m} pass number")
+    else:
+        print(f"This {m} is Faill")
     
