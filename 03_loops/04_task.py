@@ -75,13 +75,20 @@ fruits =["Apple", "Banana", "Orange", "Mango"];
 #         print(n)
 #         seen.append(n)
 # Task-16(Password- digit count);
-pwd='abc1235';
-count=0;
+# pwd='abc1235';
+# count=0;
 
-for ch in pwd:
-    if ch.isdigit():
-        count+=1
-        print(count)
+# for ch in pwd:
+#     if ch.isdigit():
+#         count+=1
+#         print(count)
 
-    
+# Task -17
+marks =[70,80,90,60];
+total=0;
+
+for m in marks :
+    total +=m;
+print(total)
+print(f"{len(marks)}, {total/len(marks)}")
     
